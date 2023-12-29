@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            height: 520px;
+            width: 900px;
+            position: relative;
+        }
+        .box{
+            position: absolute;
+            height: 250px;
+            width: 150px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .box-one{
+            background-color: blue;
+            margin-left: 10px;
+            margin-top:50px ;
+
+        }
+        .box-one:hover{
+            z-index: 1;
+        }
+        .box-two{
+            background-color: rgb(63, 212, 63);
+            margin-left: 40px;
+            margin-top: 90px ;
+        }
+        .box-three{
+            background-color: rgb(216, 216, 71);
+            margin-left: 80px;
+            margin-top: 130px ;
+        }
+        img{
+            height:200px ;
+            width:130px ;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box-one">card 1 <img src="./download (3).png" alt="image"></div>
+        <div class="box box-two">card 2</div>
+        <div class="box box-three">card 3 <img src="./images (1).jpeg" alt="img 1"></div>
+    </div>
+
+</body>
+</html>

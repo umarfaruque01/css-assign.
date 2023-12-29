@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .dropdown{
+        position: relative;
+        top: 10px;
+        display: inline-block;
+       }
+       .dropdown-content{
+        position: absolute;
+        display: none;
+        max-height: 150px;
+        width: 200px;
+        background-color: aliceblue;
+        border: 1px solid black;
+        overflow-y: scroll;
+
+       }
+       .dropdown:hover .dropdown-content {
+        display: block;
+       }
+       .dropdown-option{
+        cursor: pointer;
+        padding:10px ;
+       }
+       .dropdown-option:hover {
+        background-color: #f1f1f1;
+      }
+      span {
+        background-color: #ff6666;
+        padding: 30px 45px;
+      }
+      ul{
+        list-style: none;
+      }
+    </style>
+</head>
+<body>
+    <div class="dropdown">
+    <span>hover to view options</span>
+        <div class="dropdown-content">
+            <ul>
+                <li class="dropdown-option">option1</li>
+                <li class="dropdown-option">option2</li>
+                <li class="dropdown-option">option3</li>
+                <li class="dropdown-option">option4</li>
+                <li class="dropdown-option">option5</li>
+                <li class="dropdown-option">option6</li>
+                <li class="dropdown-option">option7</li>
+                <li class="dropdown-option">option8</li>
+                <li class="dropdown-option">option9</li>
+                <li class="dropdown-option">option10</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
